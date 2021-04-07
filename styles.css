@@ -10,7 +10,7 @@ body {
   font-family: 'Courier New', monospace;
 }
 p.a {
-  text-indent: 50px;
+  text-indent: 100px;
 }
 
 p.oneSentenceReview {
@@ -64,6 +64,7 @@ p.oneSentenceReview {
 /*Searech Bar*/
 #searchBar{
   margin-left: 15%;
+  border: 2px solid rgba(217, 217, 217, 1);
   padding: 15px;
   border-radius: 10px;
   width: 70%
