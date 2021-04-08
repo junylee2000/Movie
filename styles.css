@@ -13,10 +13,18 @@ p.a {
   text-indent: 100px;
 }
 
+p.b {
+  text-indent: 20px;
+}
+
 p.oneSentenceReview {
   float: right;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
 /*top button style*/
 #top {
   display: none;
