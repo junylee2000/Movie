@@ -22,7 +22,7 @@ p.oneSentenceReview {
 }
 
 a {
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #000000;
 }
 /*top button style*/
@@ -102,6 +102,6 @@ a {
 }
 
 #list li a{
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #000000;
 }
