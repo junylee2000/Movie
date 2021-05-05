@@ -6,7 +6,7 @@ function searchMedia() {
   ol = document.getElementById("list");
   li = ol.getElementsByTagName("li");
   for (i = 0; i < li.length; i++){
-    a = li[i].getElementsByTagName("a" | "li")[0];
+    a = li[i].getElementsByTagName("a")[0];
     txtValue= a.textContent || a.innerText;
     if(txtValue.toUpperCase().indexOf(filter) > -1) {
       li[i].style.display = "";
