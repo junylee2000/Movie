@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <title>CineTrum</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+
+<!-- Title -->
+    <div>
+      <a href = "../index.html" id = "title">CINETRUM</a>
+    </div>
+<!--Menu bar-->
+    <div class = "navbar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="active" href="../movie.html">Movie</a></li>
+        <li><a href="../tv.html">TV</a></li>
+        <li style="float:right"><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div class = "content">
+      <h1>Grand Budapest Hotel (2014)</h1>
+      <p>Director: <a href = "https://www.imdb.com/name/nm0027572/"
+                    target= "_blank">Wes Anderson</a><p>
+      <p>Screenplay: Wes Anderson</p>
+      <p>The movie starts by going through layers of platforms to get to the
+         main story as if we are going through the relics of the past to reach
+         the story. In the movie, Zero, the bell boy and later the owner of the
+         hotel, describe Mr. Gustave, the concierge of the hotel, as a person
+         who “certainly sustained the illusion with a marvelous grace,” although
+          his world disappeared a long time ago, even before he entered it. He
+          explains that Mr. Gustave showed humanity in an inhumane world since
+         the movie is set during the period of war. The movie goes through
+         multiple layers to say that these nostalgia and romance in the past
+         are only reachable through media like film and books.
+      </p>
+      <p><i>"The Nostalgia that can only be experienced through multiple layers." -4/7/21</i></p>
+      <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+    </div>
+<!--top button-->
+    <button onclick="topFunction()" id="top" title="Go to Top">Top</button>
+    <script>
+    var mybutton = document.getElementById("top");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction(){
+      if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </body>
+</html>
